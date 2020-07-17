@@ -416,7 +416,7 @@
   },
   {
     "name": "smzdm-search",
-    "url": "^https?://search\\.smzdm\\.com/\\?c=",
+    "url": "^https?://search\\.smzdm\\.com/",
     "pageElement": "css;ul#feed-main-list >*",
     "exampleUrl": "http://search.smzdm.com/?c=post&s=%E7%A9%BA%E8%B0%83&v=b",
     "nextLink": "//a[contains(text(),\"下一页\")][@href]",
