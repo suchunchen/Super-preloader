@@ -97,7 +97,7 @@ export function getAllElements(selector, contextNode = undefined, doc = document
  * @param {HTMLElement=} contextNode contextNode
  * @param {HTMLDocument=} doc doc
  * @param {Window=} win win
- * @returns {HTMLElement} Last dom elements
+ * @returns {HTMLElement} Last dom element
  */
 export function getLastElement(selector, _cplink, contextNode, doc, win) {
   let firstElems = [];
